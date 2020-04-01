@@ -1,0 +1,224 @@
+/* $Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+a { 
+    text-decoration: none;
+    color: #F4467C
+}
+/* Reset END */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    color: #111;
+}
+header {
+    text-align: center;
+    padding-top: 10px;
+}
+header img {
+    width: 160px;
+}
+nav {
+    background-color: #491628;
+    margin-top: 10px;
+    padding: 8px;
+}
+nav a {
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    padding: 8px 25px;
+    margin: 0 -3px;
+}
+nav a:hover {
+    background-color: #F4467C;
+}
+main {
+    width: 1400px;
+    margin: 0 auto;
+}
+section {
+    margin-top: 70px;
+}
+h1 {
+    font-size: 90px;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    line-height: 90px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+p {
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+.p-quienes-somos {
+    float: left;
+    width: 518px;
+    padding-right: 30px;
+}
+.img-quienes-somos {
+    float: right;
+}
+hr {
+    clear: both;
+    width: 920px;
+    height: 3px;
+    margin: 20px auto;
+    background-color: #F4467C;
+    border-width: 0;
+    border-style: none;
+    margin-top: 80px;
+}
+.img-divisorias {
+    float: left;
+}
+.section-divisorias h1, 
+.section-divisorias h2,
+.section-techos h1,
+.section-techos h2 {
+    text-align: right;
+}
+.section-divisorias div,
+.section-techos div {
+    width: 627px;
+    float: right;
+}
+.button {
+    background-color: #F4467C;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    font-size: 29px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #F4467C;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #fff;
+    border: 2px solid;
+    color: #F4467C;
+}
+.contenedor-boton {
+    text-align: center;
+    margin-top: 60px;
+}
+.clearfix {
+    clear: both;
+}
+.triangulito {
+    clear: both;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-bottom: 20px solid #F4467C;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    display: block;
+    position: relative;
+}
+.triangulito::after {
+    content: "Subir";
+    position: absolute;
+    top: 20px;
+    left: -20px;
+
+}
+.contenedor-iconos {
+    text-align: center;
+}
+.contenedor-iconos div {
+    width: 271px;
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+}
+h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 26px;
+    line-height: 60px;
+    font-weight: lighter;
+}
+.section-contacto {
+    width: 635px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-contacto p {
+    width: 80%;
+    margin: 10px auto 30px;
+}
+form {
+    text-align: left;
+}
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+}
+label {
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+}
+input,
+textarea {
+    border: 1px solid #707070;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+}
+textarea {
+    height: 120px;
+    resize: none;
+}
+input.button {
+    width: inherit;
+    margin: 0 auto;
+}
+footer div:first-child {
+    background-color: #491628;
+    color: #fff;
+    text-align: center;
+    padding: 30px 10px;
+}
+footer div:last-child {
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+footer span {
+    display: block;
+}
+footer h4 {
+    font-size: 29px;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+address {
+    font-style: normal;
+    font-size: 16px;
+}
+.tlf {
+    font-family: 'Anton', sans-serif;
+    font-size: 34px;
+    color: #fff;
+    display: block;
+    margin: 15px 0;
+}
+.email {
+    color: #fff;
+    font-size: 22px;
+    font-weight: lighter;
+}

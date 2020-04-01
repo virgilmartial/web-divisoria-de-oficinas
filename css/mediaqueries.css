@@ -1,0 +1,50 @@
+@media (max-width: 1120px){
+    nav {
+        padding: 7px 0;
+        font-size: 1em;
+    }
+    .nav a {
+        padding: 7px 15px;
+    }
+    h1{
+        font-size: 4em;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+}
+@media (max-width: 768px){
+    body {
+        font-size: 14px;
+    }
+    nav span {
+        display: block;
+    }
+    nav > ul > li {
+        position: relative;
+    }
+    nav > ul > li:hover .nav{
+        display: block;
+    }
+    .nav {
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: 0;
+    }
+    .nav a {
+        display: block;
+        width: 100%;
+    }
+    h1{
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    .p-quienes-somos,
+    .img-quienes-somos {
+        width: 100%;
+    }
+    
+}

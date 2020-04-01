@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+:root {
+    --color-primary: #491628;
+    --color-secondary: #F4467C;
+    --color-black: #111;
+    --color-white: #fff;
+    --color-grey: #707070;
+}
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Fira Sans", sans-serif;
+    color: var(--color-black);
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;   
+    color: var(--color-white);
+    font-family: 'Anton', sans-serif;
+}
+nav {
+    background-color: var(--color-primary);
+    padding: 10px 0;
+    font-size: 1.25em;
+}
+nav span {
+    display: none;
+}
+.nav { 
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+   background-color: var(--color-primary);
+   width: 100%;
+}
+.nav a {
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 10px 30px;
+    white-space: nowrap;
+}
+.nav a:hover {
+    background-color: var(--color-secondary);
+}
+main {
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+section {
+    padding: 60px 0;
+}
+h1 {
+    font-size: 5.62em;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    line-height: 1em;
+}
+h2 {
+    font-size: 2.25em;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+p {
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+hr {
+    clear: both;
+    width: 920px;
+    height: 3px;
+    margin: 20px auto;
+    background-color: #F4467C;
+    border-width: 0;
+    border-style: none;
+    margin-top: 80px;
+}
+.button {
+    background-color: #F4467C;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    font-size: 29px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #F4467C;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #fff;
+    border: 2px solid;
+    color: #F4467C;
+}
+.triangulito {
+    clear: both;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-bottom: 20px solid #F4467C;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    display: block;
+    position: relative;
+}
+.triangulito::after {
+    content: "Subir";
+    position: absolute;
+    top: 20px;
+    left: -20px;
+
+}
+.flexibilizator {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.p-quienes-somos {
+    width: 30%;
+    min-width: 280px;
+}
+.img-quienes-somos {
+    width: 60%;
+    min-width: 300px;
+}
